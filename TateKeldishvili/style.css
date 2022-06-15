@@ -1,0 +1,130 @@
+html{ 
+    background-color: #2e3445;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #525e65;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #222733;
+  }
+  
+  .active {
+    background-color: #222733;
+  }
+
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.profile-picture{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 50px 0; 
+}
+
+.work-picture{
+    width: 260px;
+    height: 260px;
+    margin: 50px 0; 
+}
+
+.my-info{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.section-title {
+	font-size: 3rem;
+    padding-top: 6rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    border-bottom:3px solid #525e65;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.info {
+    text-indent: 0px;
+}
+
+.welcome {
+    text-indent: 180px;
+    font-size: 25px;
+}
+
+.inline-block {
+   display: inline-block;
+}
+
+.company-title{
+	font-size: 25px;
+}
+
+
+.skills {
+  text-align: right;
+}
+
+.xml {width: 900px; background-color: #BD4522;} 
+.json {width: 900px; background-color: #BD2E22;} 
+.html {width: 700px; background-color: #2196F3;} 
+.css {width: 700px; background-color: #808080;} 
+.js {width: 700px; background-color: #04AA6D;} 
+.java {width: 600px; background-color: #224ABD;}
+.kotlin {width: 600px; background-color: #22BD61;}
+
+	a {
+	color: green;	
+	font-size: 20px;
+	}
