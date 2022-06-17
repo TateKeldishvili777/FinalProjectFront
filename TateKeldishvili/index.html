@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container" id="container">
         <ul class="navigation" id="navigation">
-            <li class="home"><a href="#home">Home</a></li>
-            <li class="Education"><a href="#Education">Education</a></li>
-            <li class="work"><a href="#work">Work</a></li>
-            <li class="skills"><a href="#skills">Skills</a></li>
-            <li class="projects"><a href="#projects">Projects</a></li>
-            <li class="hobbies"><a href="#hobbies">Hobbies</a></li>
-            <li class="funnystories"><a href="#funnystories">Funny Stories</a></li>
-            <li class="contact"><a href="#contact">Contact</a></li>
-            
+            <div class="topnav" id="myTopnav">
+				<a class="home active"  href="#home">Home</a>
+				<a class="Education" href="#Education">Education</a>
+				<a class="work" href="#work">Work</a>
+				<a class="skills" href="#skills">Skills</a>
+				<a class="projects" href="#projects">Projects</a>
+				<a class="hobbies" href="#hobbies">Hobbies</a>
+				<a class="funnystories" href="#funnystories">Funny Stories</a>
+				<a class="contact" href="#contact">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="MenuFunc()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div>
           </ul>
           <div class="content">
               <section id="home">
@@ -137,7 +142,7 @@
 			<section id="funnystories">
                 <h1 class="section-title">Funny Stories</h1>
 				
-				<img src="./images/funny.jpg" alt="funny" >
+				<img src="./images/funny.png" alt="funny" >
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
 					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
