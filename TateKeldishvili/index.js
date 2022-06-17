@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll(".navigation li");
+const navLi = document.querySelectorAll(".navigation .topnav a");
 
 window.addEventListener("scroll", () => {
   let current = "";
@@ -18,3 +18,12 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+function MenuFunc() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
